@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            Darin Lei
 tagline:          'HBSc Candidate at the University of Toronto'
 description:      'A curious researcher.'
-url:              https://
+url:              https://darinhrlei.netlify.app/
 baseurl:          /
 
 author:
