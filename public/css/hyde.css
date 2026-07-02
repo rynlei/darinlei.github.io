@@ -118,6 +118,7 @@ a.sidebar-nav-item:focus {
 .publication-list {
   display: flex;
   flex-direction: column;
+  margin-top: 3rem; /* <-- Add this line right here! */
 }
 
 /* 2. Individual publication layout */
