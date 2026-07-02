@@ -114,6 +114,42 @@ a.sidebar-nav-item:focus {
   }
 }
 
+/* Container for the whole list */
+.publication-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Space between different publications */
+}
+
+/* Individual publication block */
+.publication {
+  display: flex;
+  gap: 1.5rem; /* Space between image and text */
+  align-items: flex-start;
+}
+
+/* The image container */
+.pub-image {
+  flex-shrink: 0; /* Prevents the image from being squished */
+  width: 200px;
+}
+
+.pub-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px; /* Optional: slightly rounds the corners */
+  object-fit: cover;
+}
+
+/* Mobile Responsive: Stacks image on top of text on small screens */
+@media (max-width: 600px) {
+  .publication {
+    flex-direction: column;
+  }
+  .pub-image {
+    width: 100%; 
+  }
+}
 
 /*
  * Reverse layout
